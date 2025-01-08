@@ -32,6 +32,9 @@ while not end_of_game:
         if lives == 0 :
             end_of_game = True
             print("you lose...")
+
+    print(f"{' '.join(display)}")
+    
  # if you have no more letters
     if "_" not in display:
         end_of_game = True
